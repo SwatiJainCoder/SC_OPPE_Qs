@@ -10,3 +10,4 @@ This assignment evaluates your understanding of Bash scripting, command-line uti
 
 ## Instructions
 - Use Bash scripting only
+- Question files are available in /files
