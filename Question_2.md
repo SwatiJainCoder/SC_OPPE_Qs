@@ -14,12 +14,22 @@ error Connection timeout
 ```
 
 ### Expected Output
-
+```
 ERROR Disk failure
 error Connection timeout
+```
+
+### Expected Output for file (access.log)
+The file `access.log` is available in the repo under files. You can copy paste from that file.
+
+```
+ERROR Disk failure detected on /dev/sda
+error Connection timeout while reaching database
+ERROR Failed to write to log file
+error Failed to process uploaded file
+````
 
 ### Test Cases
-The file `access.log` is available in the repo. You can copy paste from that file.
 1. Mixed logs → Only lines containing "error"
 2. No matching lines → No output
 3. Case sensitivity should be preserved
